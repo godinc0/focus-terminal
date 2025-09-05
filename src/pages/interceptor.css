@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  background: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.denied {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Terminal",
+  "version": "2.0.0",
+  "description": "Terminal-based website blocking system",
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "service.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Focus Terminal"
+  },
+  "options_ui": {
+    "page": "dashboard.html",
+    "open_in_tab": true
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["interceptor.html"],
+    "matches": ["<all_urls>"]
+  }]
+}
