@@ -11,8 +11,6 @@ Privacy-focused Chrome extension built with TypeScript for managing website acce
 - ⚡ Real-time filter toggling
 - 💾 Local storage persistence
 - 🔒 Privacy-focused (no external data)
-- ⚡ **Ultra-fast development** with Vite HMR
-- 🚀 **Modern build pipeline** (5x faster than Webpack)
 
 ## Development
 
