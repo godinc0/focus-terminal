@@ -35,13 +35,6 @@ npm run build
 npm run preview
 ```
 
-### Development Experience
-
-- **Instant startup** - Development server starts in <1s
-- **Hot Module Replacement** - Changes reflect instantly
-- **TypeScript support** - Zero configuration required
-- **Modern tooling** - Latest build optimizations
-
 ### Installation
 
 1. Build the extension: `npm run build`
