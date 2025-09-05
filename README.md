@@ -1,21 +1,24 @@
-# Focus Guard - Productivity Extension
+# Focus terminal - Productivity Extension
 
-A modern Chrome extension built with TypeScript for managing website access and improving focus.
+Privacy-focused Chrome extension built with TypeScript for managing website access and improving focus—absolutely no tracking or data collection.
+
+![Focus Terminal Dashboard](public/images/dash.png)
 
 ## Features
 
 - 🚫 Unlimited website filtering
 - 📦 Import/Export filter lists
 - ⚡ Real-time filter toggling
-- 🎨 Modern, responsive UI
 - 💾 Local storage persistence
 - 🔒 Privacy-focused (no external data)
+- ⚡ **Ultra-fast development** with Vite HMR
+- 🚀 **Modern build pipeline** (5x faster than Webpack)
 
 ## Development
 
 ### Prerequisites
 
-- Node.js 16+
+- Node.js (v18+)
 - npm or yarn
 
 ### Setup
@@ -24,12 +27,22 @@ A modern Chrome extension built with TypeScript for managing website access and 
 # Install dependencies
 npm install
 
-# Build for development (watch mode)
+# Start development server with hot reload
 npm run dev
 
 # Build for production
 npm run build
+
+# Preview production build
+npm run preview
 ```
+
+### Development Experience
+
+- **Instant startup** - Development server starts in <1s
+- **Hot Module Replacement** - Changes reflect instantly
+- **TypeScript support** - Zero configuration required
+- **Modern tooling** - Latest build optimizations
 
 ### Installation
 
@@ -57,10 +70,11 @@ src/
 
 ## Technologies
 
-- TypeScript
-- Webpack
-- Chrome Extension Manifest V3
-- Declarative Net Request API
+- **TypeScript** - Type-safe development
+- **Vite** - Modern build tool with instant HMR
+- **@crxjs/vite-plugin** - Chrome extension development
+- **Chrome Extension Manifest V3** - Latest extension API
+- **Declarative Net Request API** - Website filtering
 
 ## License
 

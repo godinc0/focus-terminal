@@ -3,19 +3,15 @@
   "version": "2.0.0",
   "description": "Terminal-based website blocking system",
   "scripts": {
-    "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "clean": "rm -rf dist/*"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.254",
-    "copy-webpack-plugin": "^11.0.0",
-    "css-loader": "^6.8.1",
-    "html-webpack-plugin": "^5.5.3",
-    "style-loader": "^3.3.3",
-    "ts-loader": "^9.5.1",
+    "@crxjs/vite-plugin": "^2.0.0",
     "typescript": "^5.3.3",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "vite": "^5.0.0"
   }
 }

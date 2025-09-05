@@ -9,21 +9,21 @@
     "tabs"
   ],
   "background": {
-    "service_worker": "service.js",
+    "service_worker": "src/core/service.ts",
     "type": "module"
   },
   "action": {
     "default_title": "Focus Terminal"
   },
   "options_ui": {
-    "page": "dashboard.html",
+    "page": "src/interface/dashboard.html",
     "open_in_tab": true
   },
   "host_permissions": [
     "<all_urls>"
   ],
   "web_accessible_resources": [{
-    "resources": ["interceptor.html"],
+    "resources": ["src/pages/interceptor.html"],
     "matches": ["<all_urls>"]
   }]
 }
