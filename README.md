@@ -1,8 +1,11 @@
 # Focus terminal - Productivity Extension
 
-Privacy-focused Chrome extension built with TypeScript for managing website access and improving focus—absolutely no tracking or data collection.
+Privacy-focused Chrome extension built with TypeScript for managing website access and improving focus.
+
+  Absolutely no tracking or data collection.
 
 ![Focus Terminal Dashboard](public/images/dash.png)
+![Denied page](public/images/denied.png)
 
 ## Features
 
