@@ -73,7 +73,7 @@ class FilteringService {
       action: {
         type: chrome.declarativeNetRequest.RuleActionType.REDIRECT,
         redirect: {
-          extensionPath: '/interceptor.html'
+          extensionPath: '/src/pages/interceptor.html'
         }
       },
       condition: {
