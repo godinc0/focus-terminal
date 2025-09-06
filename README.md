@@ -1,6 +1,10 @@
-# Focus terminal - Productivity Extension
+# Focus terminal - Chrome Productivity Extension
 
-Privacy-focused Chrome extension built with TypeScript for managing website access and improving focus.
+I created this small plugin for my own use, since most extensions track or collect data. This is a lightweight open-source extension designed to quickly block and unblock websites.
+
+  Contributions are welcome. The extension is simple, with no data collection and no tracking. It really doesn’t get any simpler.
+
+  Privacy-focused Chrome extension built with TypeScript for managing website access and improving focus.
 
   Absolutely no tracking or data collection.
 
